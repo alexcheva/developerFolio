@@ -46,14 +46,17 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle:
+    "FULL STACK DEVELOPER WHO IS PASSIONATE ABOUT VISUAL AND INTERACTIVE DESIGN",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
+      "⚡ Develop highly interactive Front End / User Interfaces for your web applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Progressive Web Applications development with focus on SEO and web performance optimization"
+    ),
+    emoji(
+      "⚡ Integration of third party services and libraries. Data, SEO and web performance analytics"
     )
   ],
 
@@ -117,33 +120,6 @@ https://fontawesome.com/icons?d=gallery */
   display: true // Set false to hide this section, defaults to true
 };
 
-// Education Section
-
-const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
-  schools: [
-    {
-      schoolName: "Berkeley City College",
-      logo: require("./assets/images/bcc.jpeg"),
-      subHeader: "Associate of Arts in Mobile and Web Design",
-      duration: "September 2014 - April 2018",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Saint Petersburg State University of Cinema and Television",
-      logo: require("./assets/images/kit-ru.png"),
-      subHeader: "Bachelor of Arts in Interactive Multimedia",
-      duration: "September 2008 - April 2010",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
-  ]
-};
-
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
@@ -154,16 +130,16 @@ const techStack = {
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "50%"
+      Stack: "React",
+      progressPercentage: "80%"
     },
     {
       Stack: "Programming",
       progressPercentage: "60%"
     },
     {
-      Stack: "React",
-      progressPercentage: "70%"
+      Stack: "Backend",
+      progressPercentage: "50%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -221,6 +197,33 @@ To know how to get github key look at readme.md */
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
+};
+
+// Education Section
+
+const educationInfo = {
+  display: true, // Set false to hide this section, defaults to true
+  schools: [
+    {
+      schoolName: "Berkeley City College",
+      logo: require("./assets/images/bcc.jpeg"),
+      subHeader: "Associate of Arts in Mobile and Web Design",
+      duration: "September 2014 - April 2018",
+      desc: "GPA: 4.0"
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
+    },
+    {
+      schoolName: "Saint Petersburg State University of Cinema and Television",
+      logo: require("./assets/images/kit-ru.png"),
+      subHeader: "Bachelor of Arts in Interactive Multimedia",
+      duration: "September 2008 - April 2010",
+      desc: "GPA: 3.92"
+      //   descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+    }
+  ]
 };
 
 // Some big projects you have worked on
@@ -388,7 +391,7 @@ const twitterDetails = {
   display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,

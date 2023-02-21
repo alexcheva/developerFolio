@@ -113,12 +113,16 @@
 }
 
 .experience-text-desc {
-  text-align: center;
+  text-align: left;
 }
 
 .experience-text-details {
   padding: 1.5rem;
   margin-top: 2rem;
+}
+
+.experience-text-details > ul > li {
+  padding-bottom: 1rem;
 }
 
 /* Media Query */
