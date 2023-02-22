@@ -5,7 +5,7 @@
   border: 0.5rem solid $githubProfileCardBorder;
   margin-left: auto;
   width: 100%;
-  max-width: 350px;
+  max-width: 200px;
   height: auto;
   box-shadow: $lightBoxShadow 0 30px 30px -30px;
   transition: all 0.3s ease-out;
@@ -34,7 +34,7 @@
 }
 
 .main-content-profile {
-  flex: 80%;
+  flex: 70%;
 }
 
 .image-content-profile {
@@ -88,7 +88,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    max-width: 250px;
+    max-width: 100px;
     height: auto;
   }
 

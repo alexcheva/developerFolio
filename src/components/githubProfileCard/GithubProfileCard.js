@@ -21,6 +21,11 @@ export default function GithubProfileCard({prof}) {
               <p className="subTitle blog-subtitle">{contactInfo.subtitle}</p>
             </div>
             <h2 className="bio-text">"{emoji(String(prof.bio))}"</h2>
+            {/* <img
+              src="https://ghchart.rshah.org/alexcheva"
+              alt="Alexandra Lukinicheva Github chart"
+            /> */}
+
             {prof.location !== null && (
               <div className="location-div">
                 <span className="desc-prof">
@@ -49,11 +54,13 @@ export default function GithubProfileCard({prof}) {
             <SocialMedia />
           </div>
           <div className="image-content-profile">
-            <img
-              src={prof.avatarUrl}
-              alt={prof.name}
-              className="profile-image"
-            />
+            <a href="https://github.com/alexcheva">
+              <img
+                src={prof.avatarUrl}
+                alt={prof.name}
+                className="profile-image"
+              />
+            </a>
           </div>
         </div>
       </div>

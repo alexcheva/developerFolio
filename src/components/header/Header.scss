@@ -54,7 +54,7 @@
   display: block;
   flex: none;
   float: left;
-  font-size: 1.5em;
+  font-size: 1em;
   text-decoration: none;
   margin-top: 10px;
   line-height: normal;
@@ -160,6 +160,9 @@
 /* 48em = 768px */
 
 @media (min-width: 48em) {
+  .header .logo {
+    font-size: 1.2em;
+  }
   .header li {
     float: left;
   }

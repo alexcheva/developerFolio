@@ -23,7 +23,7 @@ const greeting = {
   username: "Alexandra Lukinicheva",
   title: "Hi all, I'm Alex",
   subTitle: emoji(
-    "Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Nextjs / Ruby on Rails / PHP and some other cool libraries and frameworks."
+    "Full Stack Software Developer 🚀 building Web applications with JavaScript / Reactjs / Nodejs / Nextjs / Ruby on Rails / PHP and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://docs.google.com/document/d/1wUWaEgtTITUJPqTnrF_G4NBXOpIpRKIZMrlPzQ63DZQ/edit?usp=sharing", // Set to empty to hide the button
@@ -55,9 +55,7 @@ const skillsSection = {
     emoji(
       "⚡ Progressive Web Applications development with focus on SEO and web performance optimization"
     ),
-    emoji(
-      "⚡ Integration of third party services and libraries. Data, SEO and web performance analytics"
-    )
+    emoji("⚡ Integration of third party services and libraries")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -123,7 +121,7 @@ https://fontawesome.com/icons?d=gallery */
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -142,7 +140,7 @@ const techStack = {
       progressPercentage: "50%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -376,10 +374,14 @@ const podcastSection = {
   display: false // Set false to hide this section, defaults to true
 };
 
+const coderRankSkillChart = {
+  userName: "alexcheva", // Change to your codersRank username to display widgets from codersRank
+  display: true
+};
+
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+  subtitle: "Discuss a project or just want to say hi? My Inbox is open.",
   number: "+92-0000000000",
   email_address: "saadpasta70@gmail.com"
 };
@@ -401,6 +403,7 @@ export {
   skillsSection,
   techStack,
   openSource,
+  coderRankSkillChart,
   workExperiences,
   educationInfo,
   bigProjects,
