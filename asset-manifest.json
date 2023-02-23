@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.19df73c4.css",
-    "main.js": "/static/js/main.dd9da8df.js",
+    "main.js": "/static/js/main.184d2a49.js",
     "static/css/64.917cfe77.chunk.css": "/static/css/64.917cfe77.chunk.css",
     "static/js/64.a2201178.chunk.js": "/static/js/64.a2201178.chunk.js",
     "static/css/769.2ce6325a.chunk.css": "/static/css/769.2ce6325a.chunk.css",
     "static/js/769.b3e71869.chunk.js": "/static/js/769.b3e71869.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/alexandra_lukinicheva_resume.pdf": "/static/media/alexandra_lukinicheva_resume.d4af1f29ec8c4391aa14.pdf",
     "static/media/design-and-development-process.svg": "/static/media/design-and-development-process.4634529a64a949997f708abb8c8ea270.svg",
     "static/media/women-web-developer-with-laptop.svg": "/static/media/women-web-developer-with-laptop.ec7e71c3bb00edba14c1d47422a0e688.svg",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
@@ -20,7 +21,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.19df73c4.css.map": "/static/css/main.19df73c4.css.map",
-    "main.dd9da8df.js.map": "/static/js/main.dd9da8df.js.map",
+    "main.184d2a49.js.map": "/static/js/main.184d2a49.js.map",
     "64.917cfe77.chunk.css.map": "/static/css/64.917cfe77.chunk.css.map",
     "64.a2201178.chunk.js.map": "/static/js/64.a2201178.chunk.js.map",
     "769.2ce6325a.chunk.css.map": "/static/css/769.2ce6325a.chunk.css.map",
@@ -28,6 +29,6 @@
   },
   "entrypoints": [
     "static/css/main.19df73c4.css",
-    "static/js/main.dd9da8df.js"
+    "static/js/main.184d2a49.js"
   ]
 }
